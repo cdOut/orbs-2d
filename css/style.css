@@ -1,0 +1,36 @@
+
+* {
+    font-family: monospace;
+    text-align: center;;
+}
+
+.title {
+    text-align: center;
+}
+
+.description {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.info {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+canvas {
+    border: 3px solid black;
+    margin: 10px 0;
+}
+
+.info #points {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#decorator {
+    font-weight: bold;
+}
